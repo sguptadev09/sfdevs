@@ -1,7 +1,7 @@
 {
   "name": "sfdevs",
   "version": "1.0.0",
-  "description": "",
+  "description": "sfdevs",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sf-devs/sfdevs.git"
+    "url": "https://github.com/sf-devs/sfdevs.git"
   },
   "author": "",
   "license": "ISC",
