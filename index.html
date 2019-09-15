@@ -2,9 +2,24 @@
 <html>
 	<head>
 	    <title>SF-DEVS</title>
+	    <script>
+	    	const url = 'https://sf-devs-developer-edition.ap15.force.com/';
+      		window.onload = function(e){
+      			(e || window.event).preventDefault();
+			    fetch("http://www.yoursite.com/home.html" /*, options */)
+			    .then((response) => response.text())
+			    .then((html) => {
+			        document.getElementById("content").innerHTML = html;
+			    })
+			    .catch((error) => {
+			        console.warn(error);
+			    });
+		     	document.getElementById("content").innerHTML='<object type="text/html" data="https://sf-devs-developer-edition.ap15.force.com/" ></object>';
+	  		}
+	  	</script>
 	</head>
-	<body style="margin:0;">
-  		<iframe src="https://sf-devs-developer-edition.ap15.force.com/" 
-  			style="height:99vh;width:100vw;overflow:visible;border:none;"/>
-  	</body> 
+	<body>
+		<div id ="content"> </div>
+	</body>
+</script>
 </html>
